@@ -1,0 +1,19 @@
+.me-link img:hover {
+  width: 2.2em;
+}
+.foto img:hover {
+  width: 663px;
+}
+.footer-icons img:hover {
+  width: 40.4px;
+}
+.reviews-bottoms img:hover{
+  background-color: rgba(123, 74, 226, 0.1);
+}
+.menu-nav a:hover {
+  color: rgba(123, 74, 226, 0.5);
+  font-weight: 700;
+}
+.border:hover {
+  background-color: rgba(123, 74, 226, 0.1);
+}

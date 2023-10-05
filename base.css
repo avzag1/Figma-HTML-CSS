@@ -1,0 +1,309 @@
+.body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  background-color: #090e16;
+  width: 80%;
+  max-width: 2000px;
+  margin: auto;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 800px;
+  color: #fff;
+  margin-top: 64px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: 700px;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.border {
+  border: 1px solid rgba(123, 74, 226, 0.5);
+  border-radius: 16px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.background {
+  background-color: rgba(123, 74, 226, 0.1);
+  border: 1px solid rgba(123, 74, 226, 0.1);
+  border-radius: 16px;
+}
+.font14 {
+  font-size: 14px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font18 {
+  font-size: 18px;
+}
+.font20 {
+  font-size: 20px;
+}
+.font24 {
+  font-size: 24px;
+}
+.font32 {
+  font-size: 32px;
+}
+.font48 {
+  font-size: 48px;
+}
+.weight600 {
+  font-weight: 600;
+}
+.weight700 {
+  font-weight: 700;
+}
+.weight800 {
+  font-weight: 800;
+}
+.white {
+  color: #ffffff;
+}
+.gray {
+  color: rgba(255, 255, 255, 0.5);
+}
+.blue {
+  color: rgba(123, 74, 226, 0.5);
+}
+.rotate180{
+  transform: rotate(180deg);
+  }
+.marginL140 {
+  margin-left: 140px;
+}
+.marginR8{
+  margin-right: 8px;
+}
+.marginR10 {
+  margin-right: 10px;
+}
+.marginR5{
+  margin-right: 5px;
+}
+.paddingTB5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.floatL{
+  float: left;
+  margin: 0;
+}
+.frame-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.icon-hi {
+  margin-top: 191px;
+  margin-bottom: 24px;
+}
+.exp-icon {
+  margin-top: 42px;
+}
+.frame-experience {
+  display: flex;
+  flex-direction: column;
+  width: 244px;
+  height: 198px;
+  min-width: 246px;
+  margin-bottom: 31px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.prof-item {
+  display: flex;
+  flex-direction: column;
+}
+.projects-icons-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 184px;
+  height: 60px;
+  margin-left: 16px;
+  margin-right: 16px;
+  font-size: 20px;
+}
+.frame-projects {
+  display: flex;
+  flex-direction: column;
+  width: 297px;
+  height: 400px;
+  margin-bottom: 48px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 27px 30px 30px 30px;
+}
+.reactjs-icon{
+  width: 83px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: rgba(123, 74, 226, 0.1);
+  color: #7B4AE2;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.typescript-icon{
+  width: 106px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: rgba(123, 74, 226, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7B4AE2;
+  font-size: 16px;
+  font-weight: 700;
+}
+.frame-v-projects {
+  display: flex;
+  flex-direction: column;
+  width: 437px;
+  height: 343px;
+  margin-top: 54px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 30px 30px 24px 30px;
+}
+.v-projects-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.play {
+  overflow: hidden;
+  width: 80px;
+  margin-bottom: -66px;
+  margin-right: -60px;
+}
+.line-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.frame-progress {
+  display: flex;
+  flex-direction: column;
+  width: 518px;
+  height: 158px;
+  margin-top: 64px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 30px;
+}
+.frame-progress h4 {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+.progress-date {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  height: 100%;
+}
+.frame-reviews {
+  display: flex;
+  flex-direction: column;
+  width: 410px;
+  height: 233px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 30px;
+  flex-shrink: 0;
+}
+.protext {
+  margin-top: 9px;
+  margin-bottom: 61px;
+}
+.protext .floatL{
+  margin-right: 5px;
+}
+.margin-img-online {
+  margin-right: 8px;
+  margin-bottom: 22px;
+}
+.video-img {
+  margin-bottom: 24px;
+  width: 442px;
+}
+.proname {
+  margin-bottom: 11px;
+}
+.tec-title {
+  font-size: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 42px;
+  margin-top: 101px;
+}
+tec-icons-item{
+  display: flex;
+  flex-wrap: wrap;/*Почему не срабатывает?*/
+}
+.tec-icons-item img {
+  margin-bottom: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.progress-parts{
+  text-align: center;
+}
+.frame-progress-title{
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: left;
+}
+.frame-progress-text{
+  color: rgba(255, 255, 255, 0.5);
+  text-align:left;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.reviews-item {
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
+.reviews-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 11px;
+}
+.reviews-name h4 {
+  margin-bottom: 5px;
+}
+.no-wrap{
+  white-space: nowrap;
+}
+.reviews-name .blue{
+  display: flex;
+}
+.reviews-name .floatL{
+  margin-right: 5px;
+}
