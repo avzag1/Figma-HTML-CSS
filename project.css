@@ -305,7 +305,7 @@ text-align: center;
 }
 .header {
   height: 64px;
-  margin: auto 140px;
+  width: 100%;
   padding-right: 25px;
   background-color: rgba(123, 74, 226, 0.05);
 }
