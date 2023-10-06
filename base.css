@@ -1,4 +1,4 @@
-.body {
+body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   background-color: #090e16;
@@ -13,33 +13,28 @@ h2 {
   font-size: 48px;
   color: #ffffff;
   font-weight: 800;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center;
 }
 h3 {
   font-size: 32px;
-  font-weight: 800px;
+  font-weight: 800;
   color: #fff;
   margin-top: 64px;
   margin-bottom: 20px;
 }
 h4 {
   font-size: 20px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #fff;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 .border {
   border: 1px solid rgba(123, 74, 226, 0.5);
   border-radius: 16px;
-  transition-property: background-color;
-  transition-duration: 0.3s;
 }
 .background {
   background-color: rgba(123, 74, 226, 0.1);
-  border: 1px solid rgba(123, 74, 226, 0.1);
   border-radius: 16px;
 }
 .font14 {
@@ -108,10 +103,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 5px 10px;
 }
 .icon-hi {
   margin-top: 191px;
@@ -140,8 +132,7 @@ h4 {
   align-items: center;
   width: 184px;
   height: 60px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 0 16px;
   font-size: 20px;
 }
 .frame-projects {

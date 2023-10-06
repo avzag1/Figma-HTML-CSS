@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Верстка по готовому макету</title>
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/raleway-5" />
     <link rel="stylesheet" href="base.css" />
     <link rel="stylesheet" href="project.css" />
     <link rel="stylesheet" href="global.css" />
@@ -22,12 +21,14 @@
       media="screen and
     (max-width:767.999px)"
     />
-    @import url('https://fonts.cdnfonts.com/css/raleway-5'); <link
-    rel="stylesheet" href="footer.css" media="screen and (max-width:1300px)"
+    <style>@import url('https://fonts.cdnfonts.com/css/raleway-5'); </style>
+    <link
+    rel="stylesheet" href="footer.css" media="screen and (max-width:1300px)"/>
+    <link rel="icon" href="foto.png">
   </head>
-  <body class="body" id="header">
+    <body id="header">
     <header class="header">
-      <img class="logo" src="logo.png" alt="Логотип" />
+      <img class="logo" src="img/logo.png" alt="Логотип" />
       <input class="menu-checkbox" id="menu-checkbox" type="checkbox">
 <label for="menu-checkbox" class="lines-container"><span class="lines-item"></span></label>
       <nav>
@@ -47,36 +48,36 @@
         <div class="me">
           <div class="name">
             <div class="frame-icon background icon-hi">
-              <img src="hi.png" alt="hi" />
+              <img src="img/hi.png" alt="hi" />
             </div>
-            <div class="white name-item1 weight800">Ваше <br />Имя</div>
+            <div class="white name-item1 weight800">Ваше <div>Имя</div></div>
             <div class="gray no-wrap">Веб-разработчик · UI дизайнер</div>
           </div>
           <div class="me-link">
             <a href="#">
-              <img src="linkedinin.png" alt="linkedinin" />
+              <img src="img/linkedinin.png" alt="linkedinin" />
             </a>
             <a href="#">
-              <img src="githubgit.png" alt="githubgit" />
+              <img src="img/githubgit.png" alt="githubgit" />
             </a>
             <a href="#">
-              <img src="behance-be.png" alt="behance-be" />
+              <img src="img/behance-be.png" alt="behance-be" />
             </a>
           </div>
           <div class="foto center-horiz center-vertical">
-            <img src="foto.png" alt="Фото" />
+            <img src="img/foto.png" alt="Фото" />
           </div>
           <div class="res-whatsapp">
             <div class="res-downl">
               <a class="blue weight600 no-wrap" href="#"
                 ><div class="desktop floatL">Скачать резюме</div>
                 <div class="mobile floatL">Резюме</div>
-                <img src="arrowLineDown.png" alt="Стрелка"
+                <img src="img/arrow-line-down.png" alt="Стрелка"
               /></a>
             </div>
             <a href="#" class="whatsapp border">
               <div>
-                <img src="whatsappLogo.png" alt="whatsappLogo" />
+                <img src="img/whatsapp-logo.png" alt="whatsappLogo" />
               </div>
               <div class="blue weight600 whatsappText inline"><div class="desktop">Написать в</div>Whatsapp</div>
             </a>
@@ -87,21 +88,21 @@
       <div class="experience white">
         <div class="frame-experience center border">
           <div class="exp-icon">
-            <img src="codeIcon.svg" alt="codeIcon" />
+            <img src="img/code-icon.svg" alt="codeIcon" />
           </div>
           <div class="font16">3 года</div>
           <div class="font32 weight700">Разработчик</div>
         </div>
         <div class="frame-experience center border exp-margin">
           <div class="exp-icon">
-            <img src="itIcon.png" alt="itIcon" />
+            <img src="img/it-icon.png" alt="itIcon" />
           </div>
           <div class="font16">7 лет</div>
           <div class="font32 weight700">В ИТ сфере</div>
         </div>
         <div class="frame-experience center border">
           <div class="exp-icon">
-            <img src="designIcon.png" alt="designIcon.png" />
+            <img src="img/design-icon.png" alt="designIcon.png" />
           </div>
           <div class="font16">4 года</div>
           <div class="font32 weight700">Дизайнер</div>
@@ -127,22 +128,22 @@
       <section>
         <div class="aboutMe" id="aboutMe">
           <div class="foto center-horiz center-vertical">
-            <img src="foto.png" alt="Фото" />
+            <img src="img/foto.png" alt="Фото" />
           </div>
           <div class="short">
             <div class="frame-icon background">
               <img
                 class="aboutme-img"
-                src="aboutme.png"
+                src="img/aboutme.png"
                 alt="aboutme"
               />
             </div>
-            <div class="white font48 name-item2 weight800">Ваше <br />Имя</div>
+            <div class="white font48 name-item2 weight800">Ваше <div>Имя</div></div>
             <div class="desktop">
-              <img src="short.png" alt="short" />
+              <img src="img/short.png" alt="short" />
             </div>
-            <div class="mobile">
-              <img src="shortwrap.png" alt="shortwrap">
+            <div class="mobile white">
+              <img src="img/shortwrap.png" alt="shortwrap">
             </div>
           </div>
         </div>
@@ -150,7 +151,7 @@
       <section>
         <div class="frame-portfolio frame-icon background" id="portfolio">
           <img
-            src="portfolio.png"
+            src="img/portfolio.png"
             width="151px"
             alt="portfolio"
           />
@@ -159,24 +160,24 @@
           <h2>Мои проекты</h2>
           <div class="projects-icons">
             <div class="border projects-icons-item blue">
-              <img class="marginR10" src="uiDesign.png" alt="uiDesign" />
+              <img class="marginR10" src="img/ui-design.png" alt="uiDesign" />
               <div class="desktop marginR5">UI</div> Дизайн
             </div>
             <div class="border projects-icons-item blue">
-              <img class="marginR10" src="design.png" alt="design" />
+              <img class="marginR10" src="img/design.png" alt="design" />
               Дизайн
             </div>
             <div class="border projects-icons-item blue">
-              <img class="marginR10" src="uiDesign.png" alt="uiDesign" />
+              <img class="marginR10" src="img/ui-design.png" alt="uiDesign" />
               <div class="desktop marginR5">UI</div> Дизайн
             </div>
           </div>
         </div>
         <div class="projects">
-          <div class="frame-projects border">
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div> Приложение написано на TypeScript.<div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon mobile">
@@ -188,13 +189,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -203,13 +204,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -218,13 +219,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -233,13 +234,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -248,13 +249,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -263,13 +264,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -278,13 +279,13 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
-          <div class="frame-projects border">
+          </section>
+          <section class="frame-projects border">
             <h4>Название проекта</h4>
             <div class="protext font14 gray">
-              Пример описания веб-приложения. <br />Приложение написано на TypeScript. <br /><div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
+              <div>Пример описания веб-приложения.</div>Приложение написано на TypeScript. <div class="floatL">Нажмите на карточку, чтобы</div> <div class="desktop floatL gray">его</div> <div class="gray">открыть.</div>
             </div>
             <div class="inline">
               <div class="margin-img-online reactjs-icon">
@@ -293,14 +294,14 @@
               <div class="typescript-icon">Typescript</div>
             </div>
             <div class="proimage">
-              <img src="proimage.png" alt="proimage" />
+              <img src="img/proimage.png" alt="proimage" />
             </div>
-          </div>
+          </section>
         </div>
         <div class="linkgithub">
           <a class="font20 weight600 blue" href="https://github.com/"
             >Больше проектов на GitHub
-            <img class="arrowgithub" src="arrowRight.png" alt="arrowRight"
+            <img class="arrowgithub" src="img/arrow-right.png" alt="arrowRight"
           /></a>
         </div>
         <h2 class="v-projects-title">Проекты с видео</h2>
@@ -308,8 +309,8 @@
           Есть опыт редактирования и монтажа видео
         </div>
         <div class="v-projects">
-          <div class="frame-v-projects border">
-            <img class="video-img" src="video-img.png" alt="video-img" />
+          <section class="frame-v-projects border">
+            <img class="video-img" src="img/video-img.png" alt="video-img" />
             <div class="v-projects-group">
               <h4 class="proname">Название проекта</h4>
               <div class="inline">
@@ -319,12 +320,12 @@
               <div class="gray font18">Веб-приложение</div>
               <div class="inline gray font18">
                 <div>Смотреть</div>
-                <div><img class="play" src="play.png" alt="play" /></div>
+                <div><img class="play" src="img/play.png" alt="play" /></div>
               </div>
             </div>
-          </div>
-          <div class="frame-v-projects border">
-            <img class="video-img" src="video-img.png" alt="video-img" />
+          </section>
+          <section class="frame-v-projects border">
+            <img class="video-img" src="img/video-img.png" alt="video-img" />
             <div class="v-projects-group">
               <h4 class="proname">Название проекта</h4>
               <div class="inline">
@@ -334,12 +335,12 @@
               <div class="gray font18">Веб-приложение</div>
               <div class="inline gray font18">
                 <div>Смотреть</div>
-                <div><img class="play" src="play.png" alt="play" /></div>
+                <div><img class="play" src="img/play.png" alt="play" /></div>
               </div>
             </div>
-          </div>
-          <div class="frame-v-projects border">
-            <img class="video-img" src="video-img.png" alt="video-img" />
+          </section>
+          <section class="frame-v-projects border">
+            <img class="video-img" src="img/video-img.png" alt="video-img" />
             <div class="v-projects-group">
               <h4 class="proname">Название проекта</h4>
               <div class="inline">
@@ -349,16 +350,16 @@
               <div class="gray font18">Веб-приложение</div>
               <div class="inline gray font18">
                 <div>Смотреть</div>
-                <div><img class="play" src="play.png" alt="play" /></div>
+                <div><img class="play" src="img/play.png" alt="play" /></div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </section>
       <section>
         <div class="center-icon">
           <div class="frame-icon background skills-icon" id="skills">
-            <img src="skills.png" alt="skills" />
+            <img src="img/skills.png" alt="skills" />
           </div>
         </div>
         <h2>Основные технологии</h2>
@@ -367,34 +368,34 @@
         </div>
         <div class="line-blocks center-horiz tec-icons-item">
           <a href="https://ru.legacy.reactjs.org/">
-            <img src="react.png" alt="react" />
+            <img src="img/react.png" alt="react" />
           </a>
           <a href="https://ru.wikipedia.org/wiki/JavaScript">
-            <img src="javascript.png" alt="javascript" />
+            <img src="img/javascript.png" alt="javascript" />
           </a>
           <a href="https://www.typescriptlang.org/">
-            <img src="ts.png" alt="ts" />
+            <img src="img/ts.png" alt="ts" />
           </a>
           <a href="https://nextjs.org/">
-            <img src="nextjs.png" alt="nextjs" />
+            <img src="img/nextjs.png" alt="nextjs" />
           </a>
           <a href="https://ru.wikipedia.org/wiki/CSS">
-            <img src="3.png" alt="3" />
+            <img src="img/3.png" alt="3" />
           </a>
           <a href="https://ru.wikipedia.org/wiki/HTML5">
-            <img src="5.png" alt="5" />
+            <img src="img/5.png" alt="5" />
           </a>
           <a href="https://www.figma.com/">
-            <img src="figma.png" alt="figma" />
+            <img src="img/figma.png" alt="figma" />
           </a>
           <a href="https://github.com/">
-            <img src="github.png" alt="github" />
+            <img src="img/github.png" alt="github" />
           </a>
           <a href="https://css-tricks.com/the-shapes-of-css/">
-            <img src="shape.png" alt="shape" />
+            <img src="img/shape.png" alt="shape" />
           </a>
           <a href="https://insomnia.rest/">
-            <img src="insomnia.png" alt="insomnia" />
+            <img src="img/insomnia.png" alt="insomnia" />
           </a>
         </div>
         <div class="tec-title">
@@ -402,43 +403,43 @@
         </div>
         <div class="line-blocks center-horiz tec-icons-item">
           <a href="https://bitbucket.org/">
-            <img src="bitbucket.png" alt="bitbucket" />
+            <img src="img/bitbucket.png" alt="bitbucket" />
           </a>
           <a href="https://vuejs.org/">
-            <img src="vue.png" alt="vue" />
+            <img src="img/vue.png" alt="vue" />
           </a>
           <a href="https://nodejs.org/ru">
-            <img src="nodejs.png" alt="nodejs" />
+            <img src="img/nodejs.png" alt="nodejs" />
           </a>
           <a href="https://tailwindcss.com/">
-            <img src="tailwindCSS.png" alt="tailwindCSS" />
+            <img src="img/tailwind-css.png" alt="tailwindCSS" />
           </a>
           <a href="https://sass-scss.ru/">
-            <img src="sass.png" alt="sass" />
+            <img src="img/sass.png" alt="sass" />
           </a>
           <a href="https://www.python.org/">
-            <img src="python.png" alt="python" />
+            <img src="img/python.png" alt="python" />
           </a>
           <a href="https://www.postgresql.org/">
-            <img src="group26.png" alt="group26" />
+            <img src="img/group26.png" alt="group26" />
           </a>
           <a
             href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%8A%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5_(%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0_%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)"
           >
-            <img src="union.png" alt="union" />
+            <img src="img/union.png" alt="union" />
           </a>
           <a href="#">
-            <img src="group27.png" alt="group27" />
+            <img src="img/group27.png" alt="group27" />
           </a>
           <a href="https://www.docker.com/">
-            <img src="docker.png" alt="docker" />
+            <img src="img/docker.png" alt="docker" />
           </a>
         </div>
       </section>
       <section>
         <div class="center-icon">
           <div class="career-icon frame-icon background" id="career">
-            <img src="career.png" alt="career" />
+            <img src="img/career.png" alt="career" />
           </div>
         </div>
         <h2>Траектория развития</h2>
@@ -571,20 +572,20 @@
         <div class="reviews-icon frame-icon background marginL140">
         <img
           id="recomendations"
-          src="recommendations.png" width="150px"
+          src="img/recommendations.png" width="150px"
           alt="recommendations"
         />
       </div>
         <div class="reviews-title">
           <h2>Последние отзывы</h2>
           <div class="reviews-bottoms desktop">
-            <img class="rotate180" src="right.png" height="60px" alt="left" />
-            <img src="right.png" height="60px" alt="right" />
+            <img class="rotate180" src="img/right.png" height="60px" alt="left" />
+            <img src="img/right.png" height="60px" alt="right" />
           </div>
         </div>
         <div class="reviews">
           <div class="frame-reviews border">
-            <img src="quotes.png" width="32px" alt="quotes" />
+            <img src="img/quotes.png" width="32px" alt="quotes" />
             <div class="reviews-item gray font16">
               <div class="desktop">Рекомендую веб-разработчика как одного из лучших. Он работал над
               моим веб-приложением, все было сделано в срок, качество кода
@@ -595,7 +596,7 @@
                 отличное. В проекте используются: JavaScript, TypeScript и Node.js</div>
             </div>
             <div class="inline center-vertical">
-              <img src="recomfoto.png" height="64px" alt="recomfoto" />
+              <img src="img/recomfoto.png" height="64px" alt="recomfoto" />
               <div class="reviews-name">
                 <h4>Роман Иванович</h4>
                 <div class="blue"><div class="floatL">Руководитель</div> <div class="desktop">команды разработчиков</div></div>
@@ -603,7 +604,7 @@
             </div>
           </div>
           <div class="frame-reviews border">
-            <img src="quotes.png" width="32px" alt="quotes" />
+            <img src="img/quotes.png" width="32px" alt="quotes" />
             <div class="reviews-item gray font16">
               <div class="desktop">Рекомендую веб-разработчика как одного из лучших. Он работал над
                 моим веб-приложением, все было сделано в срок, качество кода
@@ -614,16 +615,15 @@
                   отличное. В проекте используются: JavaScript, TypeScript и Node.js</div>
             </div>
             <div class="inline center-vertical">
-              <img src="recomfoto.png" height="64px" alt="recomfoto" />
+              <img src="img/recomfoto.png" height="64px" alt="recomfoto" />
               <div class="reviews-name">
-                <!--Не получилось выровнять по центру по вертикали через align-items:center-->
                 <h4>Роман Иванович</h4>
                 <div class="blue"><div class="floatL">Руководитель</div> <div class="desktop">команды разработчиков</div></div>
               </div>
             </div>
           </div>
           <div class="frame-reviews border">
-            <img src="quotes.png" width="32px" alt="quotes" />
+            <img src="img/quotes.png" width="32px" alt="quotes" />
             <div class="reviews-item gray font16">
               <div class="desktop">Рекомендую веб-разработчика как одного из лучших. Он работал над
                 моим веб-приложением, все было сделано в срок, качество кода
@@ -634,7 +634,7 @@
                   отличное. В проекте используются: JavaScript, TypeScript и Node.js</div>
             </div>
             <div class="inline center-vertical">
-              <img src="recomfoto.png" height="64px" alt="recomfoto" />
+              <img src="img/recomfoto.png" height="64px" alt="recomfoto" />
               <div class="reviews-name">
                 <h4>Роман Иванович</h4>
                 <div class="blue"><div class="floatL">Руководитель</div> <div class="desktop">команды разработчиков</div></div>
@@ -646,31 +646,31 @@
       <section>
         <div class="center-icon">
           <div class="contacts-icon frame-icon background" id="contacts">
-            <img src="contacts.png" alt="contacts" />
+            <img src="img/contacts.png" alt="contacts" />
           </div>
         </div>
         <h2 class="write">Пишите на почту или в чат!</h2>
         <div class="contacts-items">
           <a href="#" class="whatsapp-bottom border">
-            <div class="whatsappLogo">
-              <img src="whatsappLogo.png" alt="whatsappLogo" />
+            <div class="whatsapp-logo">
+              <img src="img/whatsapp-logo.png" alt="whatsappLogo" />
             </div>
             <div class="blue weight600 whatsappText-bottom">WhatsApp</div>
           </a>
           <div class="emale">
-            <img src="plane.png" alt="plane" />
+            <img src="img/plane.png" alt="plane" />
             <div class="blue paddingTB5">Почта</div>
             <div class="emale-item">
              <div class="gray">your-email@domain.ru</div>
-             <img class="paddingTB5" src="copysimple.png" width="32px" alt="copysimple" />
+             <img class="paddingTB5" src="img/copysimple.png" width="32px" alt="copysimple" />
             </div>
           </div>
         </div>
       </section>
       <div class="to-top-bottom">
-        <a class="to-top" href="#header"><!--Как выровнять ссылку to-top по центру без обертки?-->
+        <a class="to-top" href="#header">
           <div class="font20 weight600 blue">Наверх</div>
-          <div><img src="arrowUp.png" alt="arrowUp" /></div>
+          <div><img src="img/arrow-up.png" alt="arrowUp" /></div>
         </a>
       </div>
     </main>
@@ -680,13 +680,13 @@
       </div>
       <div class="footer-icons">
         <a href="#">
-          <img src="linkedinin.png" alt="linkedinin" />
+          <img src="img/linkedinin.png" alt="linkedinin" />
         </a>
         <a href="#">
-          <img src="githubgit.png" alt="github" />
+          <img src="img/githubgit.png" alt="github" />
         </a>
         <a href="#">
-          <img src="behance-be.png" alt="behance-be" />
+          <img src="img/behance-be.png" alt="behance-be" />
         </a>
       </div>
     </footer>

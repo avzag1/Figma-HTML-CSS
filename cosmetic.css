@@ -17,3 +17,16 @@
 .border:hover {
   background-color: rgba(123, 74, 226, 0.1);
 }
+.border,
+.reviews-bottoms img{
+  transition: background-color 0.3s linear;
+}
+.me-link img,
+.foto img,
+.footer-icons img{
+  transition: width 0.3s linear;
+}
+.lines-item::before,
+.lines-item::after{
+  transition: all 0.25s linear;
+}
