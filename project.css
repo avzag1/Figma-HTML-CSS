@@ -131,7 +131,11 @@ html {
 }
 .projects-icons {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 660px;
+  height: 75px;
 }
 .projects {
   display: flex;
@@ -315,6 +319,7 @@ nav {
 .menu-nav li {
   display: block;
   float: left;
+  margin: auto 10px;
 }
 .menu-nav li:nth-child(2) {
   max-width: 85px;
@@ -342,4 +347,22 @@ nav {
 }
 .menu-checkbox{
   display: none;
+}
+.portfolio-box{
+  margin-left: 140px;
+  height: 20px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-mobile-box{
+  height: 25px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reviews-bottoms .rotate180{
+  margin-right: 2px;
 }

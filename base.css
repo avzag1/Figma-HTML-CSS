@@ -29,7 +29,8 @@ h4 {
   color: #fff;
   margin: 0;
 }
-.border {
+.border,
+.border-mobile {
   border: 1px solid rgba(123, 74, 226, 0.5);
   border-radius: 16px;
 }
@@ -75,6 +76,12 @@ h4 {
 }
 .blue {
   color: rgba(123, 74, 226, 0.5);
+}
+.text-icon{
+  color: #7B4AE2;
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: 700;
 }
 .rotate180{
   transform: rotate(180deg);
@@ -132,8 +139,8 @@ h4 {
   align-items: center;
   width: 184px;
   height: 60px;
-  margin: 0 16px;
   font-size: 20px;
+  margin: 0 5px;
 }
 .frame-projects {
   display: flex;

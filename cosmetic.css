@@ -14,8 +14,17 @@
   color: rgba(123, 74, 226, 0.5);
   font-weight: 700;
 }
-.border:hover {
+.frame-portfolio:hover{
+  border: black solid 5px;
+}
+.menu-nav a{
+  transition: color .3s linear;
+}
+.border:hover{
   background-color: rgba(123, 74, 226, 0.1);
+}
+.border-mobile:hover{
+  border: black solid 5px;
 }
 .border,
 .reviews-bottoms img{
