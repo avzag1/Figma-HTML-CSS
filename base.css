@@ -259,9 +259,9 @@ h4 {
   margin-bottom: 42px;
   margin-top: 101px;
 }
-tec-icons-item{
+.tec-icons-item{
   display: flex;
-  flex-wrap: wrap;/*Почему не срабатывает?*/
+  flex-wrap: wrap;
 }
 .tec-icons-item img {
   margin-bottom: 16px;

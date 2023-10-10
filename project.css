@@ -362,6 +362,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 2px;
 }
 .reviews-bottoms .rotate180{
   margin-right: 2px;
